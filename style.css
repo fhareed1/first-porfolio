@@ -1,0 +1,82 @@
+ *{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   background-color: rgb(31, 30, 30);
+ }
+ .yellowcolor h3{
+  text-transform: capitalize;
+}
+ .container{
+   display: flex;
+   height: 100vh;
+ }
+ .writing {
+   height: 100%;
+   display: flex;
+   flex-direction: column ;
+   flex: 1;
+   align-items: center;
+   justify-content: center;
+   color: orange;
+
+ }
+ .image {
+   flex: 1;
+ }
+  /* body{
+    background-color: dimgrey; */
+ 
+   
+ .writing{
+   text-align: center;
+    padding-right: 20px;
+ } 
+.navbar{
+  /* border-radius: 5px; */
+  /* margin: 0%;
+  padding: 0%; */
+  overflow: auto;
+  position: sticky;
+  top: 0px;
+}
+.navbar ul {
+  float: right;
+}
+.navbar li{
+  float: left;
+  text-decoration: none;
+  list-style: none;
+}
+.navbar li a{
+  display: block;
+  color: orange;
+  text-decoration: none;
+  padding: 15px 20px;
+  text-align: center;
+}
+.navbar li a:hover{
+  background-color: rgb(70, 66, 66);
+}
+/* #righttop{
+  margin-right: 20px;
+} */
+   
+ 
+ .link{
+  font-weight: 300;
+ }
+ .yellowcolor{
+   color: orange;
+ }
+ .whitecolor{
+   color: white;
+ }
+ .image {
+   background: url(./farfar.png) no-repeat center center/cover;
+ }
+ /* .chevron{
+  background-size: 8px;
+  font-size: 16px;
+ } */

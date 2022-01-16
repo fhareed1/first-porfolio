@@ -1,0 +1,89 @@
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color:  rgb(31, 30, 30);
+}
+.navbar{
+  /* border-radius: 5px; */
+  /* margin: 0%;
+  padding: 0%; */
+  overflow: auto;
+  position: sticky;
+  top: 0px;
+  
+}
+.navbar ul {
+  float: right;
+}
+.navbar li{
+  float: left;
+  text-decoration: none;
+  list-style: none;
+}
+.navbar li a{
+  display: block;
+  color: orange;
+  text-decoration: none;
+  padding: 15px 20px;
+  text-align: center;
+}
+.navbar li a:hover{
+  background-color: rgb(70, 66, 66);
+}
+/* #righttop{
+  margin-right: 20px;
+} */
+
+
+/* .link{
+  text-align: center;
+  width: 50%;
+  position: relative;
+  bottom: 100px;
+  text-decoration: none;
+} */
+
+
+.image {
+  flex: 1;
+  background: url(./farfar.png) no-repeat center center/cover;
+}
+
+.container{
+  display: flex;
+  height: 100vh;
+  padding-left: 50px;
+}
+.paragraph-content{
+  height: 100%;
+  display: flex;
+  flex-direction: column ;
+  flex: 1;
+  
+  margin-top: 25px;
+    color: #ccc;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 300;
+}
+  #talk{
+    text-decoration: none;
+  }
+  .title{
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  h1{
+    font-size: 64px;
+    line-height: 1.0625;
+    font-weight: 600;
+    letter-spacing: -.01em;
+    text-transform: none;
+    margin: 0.67em 0;
+    color: #fff;
+}
+  
