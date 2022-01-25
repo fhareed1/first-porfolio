@@ -129,17 +129,17 @@ label{
   padding: 0px 20px 0px 20px;
   
   margin: 0px;
-  flex: 1;
+  /* flex: 1; */
   display: block;
 }
 .down{
   text-align: center;
   color: white;
-  
+  display: block;
  
 }
 span {
-  padding-bottom: 0px;
+  padding-top: 50px;
 }
 
 }
