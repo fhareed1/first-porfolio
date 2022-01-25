@@ -127,7 +127,7 @@ label{
 .form-group{
   display: flex;
   padding: 0px 20px 0px 20px;
-  
+  overflow: none;
   margin: 0px;
   /* flex: 1; */
   display: block;
