@@ -46,9 +46,14 @@ body{
 }
 h1{
   color: aliceblue;
+  padding-bottom: 100px;
 }
 .top{
   text-align: center;
+  color: white;
+}
+i{
+  color: white;
 }
 .form-group{
   padding: 0px 20px 0px 20px;
@@ -100,12 +105,15 @@ label{
    cursor: pointer;
 
  }
- @media (max-width: 500px ) {
+ .down {
+   display: none;
+ }
+ @media (max-width: 500px ) 
+ {
    .image{
    display: none;
  }
 .top {
- width: 200px;
  display: none;
 }
 .navbar li a{
@@ -116,6 +124,22 @@ label{
   flex-wrap: nowrap;
   font-size: 14px;
 }
-
+.form-group{
+  display: flex;
+  padding: 0px 20px 0px 20px;
+  
+  margin: 0px;
+  flex: 1;
+  display: block;
+}
+.down{
+  text-align: center;
+  color: white;
+  
+ 
+}
+span {
+  padding-bottom: 0px;
+}
 
 }
